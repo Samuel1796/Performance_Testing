@@ -1,27 +1,40 @@
+# CI workflow that:
+# 1) runs each JMeter thread group separately,
+# 2) publishes dashboards to GitHub Pages,
+# 3) sends a Slack report with summary metrics.
 name: JMeter Thread Groups and Pages
 
 on:
+  # Allow manual runs from the Actions UI.
   workflow_dispatch:
+  # Auto-run on pushes to primary branches.
   push:
     branches:
       - main
       - master
 
+# Required permissions for checkout, Pages deployment, and OIDC token usage.
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Ensure only one Pages deployment pipeline runs at a time for this repo.
 concurrency:
   group: jmeter-pages
   cancel-in-progress: false
 
 jobs:
+  # Matrix job: run JMeter once per thread-group profile.
   run-thread-groups:
     runs-on: ubuntu-latest
     strategy:
+      # Run one profile at a time; parallel execution overloads the target and
+      # makes CI results non-comparable with local single-profile runs.
+      max-parallel: 1
       fail-fast: false
       matrix:
+        # Define all thread groups that should be executed in CI.
         include:
           - id: TG1
             slug: baseline
@@ -40,20 +53,24 @@ jobs:
             label: Endurance
 
     steps:
+      # Pull repository files (JMX, scripts, etc.) into the runner.
       - name: Checkout
         uses: actions/checkout@v4
 
+      # JMeter requires Java runtime.
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "17"
 
+      # Install a fixed JMeter version for reproducible runs.
       - name: Install JMeter
         run: |
           curl -fsSL https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz -o jmeter.tgz
           tar -xzf jmeter.tgz
 
+      # Generate a JMX copy where only the current matrix thread group is enabled.
       - name: Prepare JMX for selected thread group
         run: |
           mkdir -p generated
@@ -62,10 +79,12 @@ jobs:
             --output generated/${{ matrix.slug }}.jmx \
             --thread-group-id ${{ matrix.id }}
 
+      # Execute non-GUI JMeter test and build HTML dashboard output.
       - name: Run JMeter for ${{ matrix.label }}
         id: jmeter_run
         run: |
           mkdir -p results/${{ matrix.slug }}
+          # Capture JMeter exit code manually so later steps can still run.
           set +e
           ./apache-jmeter-5.6.3/bin/jmeter \
             -n \
@@ -77,6 +96,7 @@ jobs:
           set -e
           echo "exit_code=$rc" >> "$GITHUB_OUTPUT"
 
+      # Parse JTL and compute quality-gate metrics used by reporting and pass/fail.
       - name: Build metrics for ${{ matrix.label }}
         id: metrics
         env:
@@ -145,11 +165,13 @@ jobs:
           )
           echo "status=$status" >> "$GITHUB_OUTPUT"
 
+      # Stage dashboard files so they can be merged into a single Pages site later.
       - name: Prepare Pages content for ${{ matrix.label }}
         run: |
           mkdir -p pages/${{ matrix.slug }}
           cp -R results/${{ matrix.slug }}/${{ matrix.slug }}_dashboard/. pages/${{ matrix.slug }}/
 
+      # Upload per-thread-group dashboard artifact.
       - name: Upload dashboard artifact for ${{ matrix.label }}
         uses: actions/upload-artifact@v4
         with:
@@ -157,6 +179,7 @@ jobs:
           path: pages/${{ matrix.slug }}
           if-no-files-found: error
 
+      # Upload per-thread-group metrics artifact for Slack summary.
       - name: Upload metrics artifact for ${{ matrix.label }}
         uses: actions/upload-artifact@v4
         with:
@@ -164,12 +187,14 @@ jobs:
           path: metrics/${{ matrix.slug }}.json
           if-no-files-found: error
 
+      # Enforce quality gate at matrix-job level.
       - name: Fail job when thread group does not pass
         if: steps.metrics.outputs.status != 'PASS'
         run: |
           echo "Thread group ${{ matrix.label }} failed quality gate."
           exit 1
 
+  # Deploy combined dashboards to GitHub Pages.
   deploy-pages:
     runs-on: ubuntu-latest
     needs: run-thread-groups
@@ -181,17 +206,20 @@ jobs:
       page_url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      # Initialize Pages deployment settings for this run.
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
 
+      # Retrieve all dashboard artifacts produced by the matrix job.
       - name: Download all dashboard artifacts
         uses: actions/download-artifact@v4
         with:
           path: _artifacts
           pattern: pages-*
 
+      # Build a simple landing page and copy each dashboard under its slug path.
       - name: Build Pages site
         run: |
           mkdir -p _site
@@ -248,15 +276,18 @@ jobs:
           </html>
           HTML
 
+      # Upload static site bundle to GitHub Pages artifact storage.
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
+      # Publish artifact to the github-pages environment.
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
+  # Always notify Slack, regardless of success/failure, with links and metrics.
   notify-slack:
     runs-on: ubuntu-latest
     needs:
@@ -265,6 +296,7 @@ jobs:
     if: always()
 
     steps:
+      # Build and send a rich Slack message with per-group KPIs.
       - name: Send Slack notification
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
