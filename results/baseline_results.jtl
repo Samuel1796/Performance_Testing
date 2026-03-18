@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1773797868682,3837,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-3,,true,,52000,1856,15,15,null,0,8365,932
+1773797869460,805,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-3,text,true,,5230,234,4,4,https://www.demoblaze.com/index.html,803,0,432
+1773797871192,911,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-3,text,true,,252,298,6,6,https://api.demoblaze.com/login,911,0,500
+1773797873743,400,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-3,text,true,,2153,265,8,8,https://api.demoblaze.com/bycat,396,0,0
+1773797876452,519,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-3,text,true,,20674,240,11,11,https://www.demoblaze.com/prod.html?idp_=7,369,0,0
+1773797878020,377,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-3,text,true,,264,308,12,12,https://api.demoblaze.com/addtocart,377,0,0
+1773797879216,409,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-3,text,true,,23221,233,13,13,https://www.demoblaze.com/cart.html,355,0,0
+1773797880469,416,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-3,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,416,0,0
+1773797866695,3982,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-1,,true,,34229,1856,14,14,null,0,10351,1024
+1773797870752,999,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-1,text,true,,4966,234,6,6,https://www.demoblaze.com/index.html,975,0,587
+1773797873211,851,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-1,text,true,,248,298,8,8,https://api.demoblaze.com/login,851,0,437
+1773797874254,416,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-1,text,true,,2153,265,8,8,https://api.demoblaze.com/bycat,416,0,0
+1773797876289,531,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-1,text,true,,20674,240,11,11,https://www.demoblaze.com/prod.html?idp_=2,364,0,0
+1773797878933,391,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-1,text,true,,264,308,13,13,https://api.demoblaze.com/addtocart,391,0,0
+1773797880156,402,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-1,text,true,,5718,233,14,14,https://www.demoblaze.com/cart.html,390,0,0
+1773797880637,392,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-1,text,true,,206,278,14,14,https://api.demoblaze.com/deletecart,392,0,0
+1773797867686,4339,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-2,,true,,34249,1856,15,15,null,0,11282,1354
+1773797868666,1176,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-2,text,true,,4879,234,4,4,https://www.demoblaze.com/index.html,1159,0,786
+1773797871351,962,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-2,text,true,,248,298,6,6,https://api.demoblaze.com/login,962,0,568
+1773797873908,482,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-2,text,true,,2153,265,8,8,https://api.demoblaze.com/bycat,478,0,0
+1773797877154,528,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-2,text,true,,20674,240,12,12,https://www.demoblaze.com/prod.html?idp_=5,378,0,0
+1773797878518,390,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-2,text,true,,264,308,13,13,https://api.demoblaze.com/addtocart,390,0,0
+1773797881072,403,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-2,text,true,,5825,233,13,13,https://www.demoblaze.com/cart.html,394,0,0
+1773797882910,398,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-2,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,397,0,0
+1773797872673,3742,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-7,,true,,34300,1856,15,15,null,0,8079,851
+1773797875301,686,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-7,text,true,,4884,234,10,10,https://www.demoblaze.com/index.html,672,0,417
+1773797876519,840,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-7,text,true,,253,298,11,11,https://api.demoblaze.com/login,840,0,434
+1773797878080,397,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-7,text,true,,2153,265,12,12,https://api.demoblaze.com/bycat,397,0,0
+1773797879337,582,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-7,text,true,,20715,240,14,14,https://www.demoblaze.com/prod.html?idp_=6,418,0,0
+1773797881059,383,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-7,text,true,,264,308,13,13,https://api.demoblaze.com/addtocart,383,0,0
+1773797883605,353,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-7,text,true,,5825,233,15,15,https://www.demoblaze.com/cart.html,347,0,0
+1773797883992,501,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-7,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,501,0,0
+1773797869680,3481,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-4,,true,,19045,1856,15,15,null,0,11509,854
+1773797869783,694,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-4,text,true,,4912,234,4,4,https://www.demoblaze.com/index.html,680,0,423
+1773797872214,827,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-4,text,true,,248,298,7,7,https://api.demoblaze.com/login,827,0,431
+1773797873957,402,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-4,text,true,,2153,265,8,8,https://api.demoblaze.com/bycat,402,0,0
+1773797878428,373,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-4,text,true,,5514,240,13,13,https://www.demoblaze.com/prod.html?idp_=1,355,0,0
+1773797879259,381,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-4,text,true,,264,308,13,13,https://api.demoblaze.com/addtocart,380,0,0
+1773797881063,403,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-4,text,true,,5748,233,13,13,https://www.demoblaze.com/cart.html,369,0,0
+1773797884270,401,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-4,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,401,0,0
+1773797870676,3653,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-5,,true,,34134,1856,15,15,null,0,11858,970
+1773797871472,724,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-5,text,true,,4931,234,6,6,https://www.demoblaze.com/index.html,713,0,458
+1773797876332,904,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-5,text,true,,248,298,11,11,https://api.demoblaze.com/login,904,0,512
+1773797881346,423,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-5,text,true,,2153,265,14,14,https://api.demoblaze.com/bycat,414,0,0
+1773797882190,537,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-5,text,true,,20715,240,15,15,https://www.demoblaze.com/prod.html?idp_=4,379,0,0
+1773797883636,388,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-5,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,388,0,0
+1773797884652,281,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-5,text,true,,5617,233,14,14,https://www.demoblaze.com/cart.html,264,0,0
+1773797885791,396,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-5,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,396,0,0
+1773797871678,3561,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-6,,true,,34530,1856,14,14,null,0,11307,905
+1773797872418,773,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-6,text,true,,5156,234,7,7,https://www.demoblaze.com/index.html,752,0,493
+1773797875803,807,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-6,text,true,,253,298,10,10,https://api.demoblaze.com/login,807,0,412
+1773797877195,392,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-6,text,true,,2153,265,11,11,https://api.demoblaze.com/bycat,388,0,0
+1773797877903,393,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-6,text,true,,20674,240,12,12,https://www.demoblaze.com/prod.html?idp_=7,252,0,0
+1773797882872,399,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-6,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,399,0,0
+1773797883601,408,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-6,text,true,,5824,233,15,15,https://www.demoblaze.com/cart.html,398,0,0
+1773797886157,389,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-6,text,true,,206,278,14,14,https://api.demoblaze.com/deletecart,389,0,0
+1773797874675,3667,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-9,,true,,19128,1856,15,15,null,0,10226,906
+1773797876103,797,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-9,text,true,,4923,234,11,11,https://www.demoblaze.com/index.html,785,0,410
+1773797878450,895,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-9,text,true,,248,298,13,13,https://api.demoblaze.com/login,895,0,496
+1773797879849,398,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-9,text,true,,2153,265,14,14,https://api.demoblaze.com/bycat,395,0,0
+1773797882552,408,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-9,text,true,,5568,240,15,15,https://www.demoblaze.com/prod.html?idp_=1,391,0,0
+1773797884205,394,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-9,text,true,,264,308,14,14,https://api.demoblaze.com/addtocart,394,0,0
+1773797885971,385,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-9,text,true,,5766,233,14,14,https://www.demoblaze.com/cart.html,377,0,0
+1773797888179,390,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-9,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,390,0,0
+1773797876674,3858,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-11,,true,,34412,1856,16,16,null,0,9229,828
+1773797876893,796,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-11,text,true,,4928,234,12,12,https://www.demoblaze.com/index.html,783,0,422
+1773797879307,815,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-11,text,true,,248,298,14,14,https://api.demoblaze.com/login,815,0,406
+1773797883605,415,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-11,text,true,,2153,265,15,15,https://api.demoblaze.com/bycat,406,0,0
+1773797884361,567,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-11,text,true,,20715,240,14,14,https://www.demoblaze.com/prod.html?idp_=6,401,0,0
+1773797885807,442,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-11,text,true,,264,308,14,14,https://api.demoblaze.com/addtocart,442,0,0
+1773797887670,411,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-11,text,true,,5898,233,15,15,https://www.demoblaze.com/cart.html,402,0,0
+1773797889350,412,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-11,text,true,,206,278,16,16,https://api.demoblaze.com/deletecart,412,0,0
+1773797875673,3857,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-10,,true,,34215,1856,16,16,null,0,11910,915
+1773797875815,815,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-10,text,true,,4944,234,10,10,https://www.demoblaze.com/index.html,803,0,420
+1773797878403,903,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-10,text,true,,248,298,13,13,https://api.demoblaze.com/login,903,0,495
+1773797881620,411,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-10,text,true,,2153,265,14,14,https://api.demoblaze.com/bycat,402,0,0
+1773797884664,527,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-10,text,true,,20674,240,14,14,https://www.demoblaze.com/prod.html?idp_=7,368,0,0
+1773797887667,418,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-10,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,418,0,0
+1773797888101,370,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-10,text,true,,5726,233,15,15,https://www.demoblaze.com/cart.html,359,0,0
+1773797891028,413,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-10,text,true,,206,278,16,16,https://api.demoblaze.com/deletecart,413,0,0
+1773797873676,3738,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-8,,true,,51737,1856,17,17,null,0,15524,835
+1773797876382,718,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-8,text,true,,4921,234,11,11,https://www.demoblaze.com/index.html,707,0,426
+1773797877383,808,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-8,text,true,,253,298,12,12,https://api.demoblaze.com/login,808,0,409
+1773797881036,389,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-8,text,true,,2153,265,13,13,https://api.demoblaze.com/bycat,386,0,0
+1773797882428,565,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-8,text,true,,20715,240,15,15,https://www.demoblaze.com/prod.html?idp_=7,404,0,0
+1773797883570,401,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-8,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,401,0,0
+1773797887989,443,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-8,text,true,,23221,233,15,15,https://www.demoblaze.com/cart.html,379,0,0
+1773797892525,414,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-8,text,true,,210,278,17,17,https://api.demoblaze.com/deletecart,414,0,0
+1773797880667,3807,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-15,,true,,34192,1856,16,16,null,0,9118,947
+1773797882534,713,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-15,text,true,,4961,234,15,15,https://www.demoblaze.com/index.html,704,0,434
+1773797883617,904,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-15,text,true,,248,298,14,14,https://api.demoblaze.com/login,904,0,513
+1773797885673,404,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-15,text,true,,2153,265,15,15,https://api.demoblaze.com/bycat,404,0,0
+1773797887308,541,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-15,text,true,,20674,240,15,15,https://www.demoblaze.com/prod.html?idp_=2,386,0,0
+1773797887997,435,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-15,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,435,0,0
+1773797888628,377,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-15,text,true,,5686,233,15,15,https://www.demoblaze.com/cart.html,371,0,0
+1773797893160,433,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-15,text,true,,206,278,16,16,https://api.demoblaze.com/deletecart,433,0,0
+1773797878667,4040,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-13,,true,,64283,1856,18,18,null,0,13410,951
+1773797882180,983,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-13,text,true,,17517,234,15,15,https://www.demoblaze.com/index.html,813,0,425
+1773797884362,923,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-13,text,true,,248,298,14,14,https://api.demoblaze.com/login,923,0,526
+1773797886340,412,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-13,text,true,,2153,265,14,14,https://api.demoblaze.com/bycat,408,0,0
+1773797887354,464,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-13,text,true,,20674,240,15,15,https://www.demoblaze.com/prod.html?idp_=5,381,0,0
+1773797890075,429,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-13,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,429,0,0
+1773797892208,431,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-13,text,true,,23221,233,16,16,https://www.demoblaze.com/cart.html,367,0,0
+1773797895720,398,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-13,text,true,,206,278,18,18,https://api.demoblaze.com/deletecart,398,0,0
+1773797881665,3858,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-16,,true,,34105,1856,18,18,null,0,11564,916
+1773797883495,858,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-16,text,true,,4961,234,15,15,https://www.demoblaze.com/index.html,848,0,475
+1773797886626,849,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-16,text,true,,248,298,14,14,https://api.demoblaze.com/login,849,0,441
+1773797890749,410,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-16,text,true,,2153,265,16,16,https://api.demoblaze.com/bycat,406,0,0
+1773797894095,552,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-16,text,true,,20674,240,17,17,https://www.demoblaze.com/prod.html?idp_=5,379,0,0
+1773797894926,418,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-16,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,418,0,0
+1773797896002,383,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-16,text,true,,5599,233,17,17,https://www.demoblaze.com/cart.html,372,0,0
+1773797896699,388,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-16,text,true,,206,278,18,18,https://api.demoblaze.com/deletecart,388,0,0
+1773797877671,4032,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-12,,true,,64328,1856,21,21,null,0,19166,940
+1773797878647,919,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-12,text,true,,17517,234,13,13,https://www.demoblaze.com/index.html,760,0,403
+1773797880679,931,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-12,text,true,,248,298,13,13,https://api.demoblaze.com/login,931,0,537
+1773797882327,408,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-12,text,true,,2157,265,15,15,https://api.demoblaze.com/bycat,403,0,0
+1773797885889,458,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-12,text,true,,20715,240,14,14,https://www.demoblaze.com/prod.html?idp_=5,385,0,0
+1773797894323,476,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-12,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,476,0,0
+1773797899542,441,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-12,text,true,,23221,233,20,20,https://www.demoblaze.com/cart.html,376,0,0
+1773797900471,399,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-12,text,true,,206,278,21,21,https://api.demoblaze.com/deletecart,399,0,0
+1773797883660,3598,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-18,,true,,18968,1856,20,20,null,0,13726,961
+1773797885860,695,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-18,text,true,,4923,234,13,13,https://www.demoblaze.com/index.html,685,0,420
+1773797887264,957,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-18,text,true,,248,298,15,15,https://api.demoblaze.com/login,957,0,541
+1773797891638,436,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-18,text,true,,2153,265,16,16,https://api.demoblaze.com/bycat,436,0,0
+1773797894109,392,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-18,text,true,,5376,240,16,16,https://www.demoblaze.com/prod.html?idp_=1,379,0,0
+1773797894940,404,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-18,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,404,0,0
+1773797897182,310,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-18,text,true,,5798,233,17,17,https://www.demoblaze.com/cart.html,271,0,0
+1773797900581,404,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-18,text,true,,206,278,20,20,https://api.demoblaze.com/deletecart,404,0,0
+1773797879668,3933,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-14,,true,,34686,1856,20,20,null,0,18272,971
+1773797880996,838,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-14,text,true,,5204,234,14,14,https://www.demoblaze.com/index.html,827,0,440
+1773797882152,928,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-14,text,true,,248,298,15,15,https://api.demoblaze.com/login,928,0,531
+1773797888143,447,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-14,text,true,,2153,265,14,14,https://api.demoblaze.com/bycat,447,0,0
+1773797890326,568,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-14,text,true,,20715,240,16,16,https://www.demoblaze.com/prod.html?idp_=3,423,0,0
+1773797894351,425,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-14,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,425,0,0
+1773797899586,316,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-14,text,true,,5896,233,20,20,https://www.demoblaze.com/cart.html,282,0,0
+1773797901463,411,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-14,text,true,,206,278,20,20,https://api.demoblaze.com/deletecart,411,0,0
+1773797884662,3878,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-19,,true,,34268,1856,19,19,null,0,13369,975
+1773797886949,843,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-19,text,true,,5011,234,15,15,https://www.demoblaze.com/index.html,810,0,408
+1773797889651,984,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-19,text,true,,248,298,15,15,https://api.demoblaze.com/login,984,0,567
+1773797891855,411,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-19,text,true,,2153,265,16,16,https://api.demoblaze.com/bycat,411,0,0
+1773797896306,432,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-19,text,true,,20674,240,18,18,https://www.demoblaze.com/prod.html?idp_=6,276,0,0
+1773797897207,408,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-19,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,408,0,0
+1773797899569,405,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-19,text,true,,5712,233,20,20,https://www.demoblaze.com/cart.html,391,0,0
+1773797901514,395,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-19,text,true,,206,278,19,19,https://api.demoblaze.com/deletecart,395,0,0
+1773797887655,4288,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-22,,true,,34268,1856,20,20,null,0,12082,1289
+1773797888612,1277,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-22,text,true,,4856,234,15,15,https://www.demoblaze.com/index.html,1266,0,880
+1773797891283,810,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-22,text,true,,248,298,16,16,https://api.demoblaze.com/login,810,0,409
+1773797895309,410,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-22,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,410,0,0
+1773797897360,588,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-22,text,true,,20715,240,18,18,https://www.demoblaze.com/prod.html?idp_=2,405,0,0
+1773797900413,406,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-22,text,true,,264,308,21,21,https://api.demoblaze.com/addtocart,406,0,0
+1773797901430,396,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-22,text,true,,5826,233,20,20,https://www.demoblaze.com/cart.html,381,0,0
+1773797903625,401,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-22,text,true,,206,278,20,20,https://api.demoblaze.com/deletecart,401,0,0
+1773797891649,3721,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-26,,true,,47021,1856,19,19,null,0,8909,820
+1773797894794,889,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-26,text,true,,17517,234,18,18,https://www.demoblaze.com/index.html,690,0,412
+1773797895712,811,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-26,text,true,,253,298,17,17,https://api.demoblaze.com/login,811,0,408
+1773797900032,395,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-26,text,true,,2153,265,20,20,https://api.demoblaze.com/bycat,391,0,0
+1773797901435,464,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-26,text,true,,20715,240,19,19,https://www.demoblaze.com/prod.html?idp_=2,404,0,0
+1773797902037,393,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-26,text,true,,264,308,18,18,https://api.demoblaze.com/addtocart,393,0,0
+1773797903503,386,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-26,text,true,,5913,233,20,20,https://www.demoblaze.com/cart.html,375,0,0
+1773797903897,383,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-26,text,true,,206,278,19,19,https://api.demoblaze.com/deletecart,383,0,0
+1773797882662,3797,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-17,,true,,34395,1856,19,19,null,0,18537,940
+1773797888431,806,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-17,text,true,,5062,234,15,15,https://www.demoblaze.com/index.html,801,0,424
+1773797889649,934,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-17,text,true,,248,298,15,15,https://api.demoblaze.com/login,934,0,516
+1773797893209,436,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-17,text,true,,2153,265,15,15,https://api.demoblaze.com/bycat,431,0,0
+1773797897203,548,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-17,text,true,,20715,240,18,18,https://www.demoblaze.com/prod.html?idp_=6,395,0,0
+1773797899456,414,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-17,text,true,,264,308,20,20,https://api.demoblaze.com/addtocart,414,0,0
+1773797902110,260,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-17,text,true,,5747,233,18,18,https://www.demoblaze.com/cart.html,248,0,0
+1773797904599,399,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-17,text,true,,206,278,19,19,https://api.demoblaze.com/deletecart,399,0,0
+1773797885657,4036,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-20,,true,,64324,1856,18,18,null,0,15382,944
+1773797886914,999,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-20,text,true,,17517,234,15,15,https://www.demoblaze.com/index.html,816,0,434
+1773797890586,922,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-20,text,true,,248,298,15,15,https://api.demoblaze.com/login,922,0,510
+1773797893835,403,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-20,text,true,,2153,265,16,16,https://api.demoblaze.com/bycat,400,0,0
+1773797895027,457,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-20,text,true,,20715,240,17,17,https://www.demoblaze.com/prod.html?idp_=6,397,0,0
+1773797897369,427,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-20,text,true,,264,308,18,18,https://api.demoblaze.com/addtocart,427,0,0
+1773797900866,429,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-20,text,true,,23221,233,19,19,https://www.demoblaze.com/cart.html,378,0,0
+1773797904677,399,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-20,text,true,,206,278,18,18,https://api.demoblaze.com/deletecart,399,0,0
+1773797892646,3855,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-27,,true,,34314,1856,18,18,null,0,9808,969
+1773797893737,906,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-27,text,true,,5108,234,16,16,https://www.demoblaze.com/index.html,897,0,448
+1773797895088,914,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-27,text,true,,253,298,18,18,https://api.demoblaze.com/login,914,0,521
+1773797897741,407,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-27,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,407,0,0
+1773797898726,524,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-27,text,true,,20674,240,19,19,https://www.demoblaze.com/prod.html?idp_=2,387,0,0
+1773797900130,387,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-27,text,true,,264,308,20,20,https://api.demoblaze.com/addtocart,387,0,0
+1773797904894,276,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-27,text,true,,5656,233,17,17,https://www.demoblaze.com/cart.html,264,0,0
+1773797905869,441,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-27,text,true,,206,278,18,18,https://api.demoblaze.com/deletecart,441,0,0
+1773797890650,3869,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-25,,true,,64324,1856,20,20,null,0,14628,951
+1773797894123,946,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-25,text,true,,17517,234,17,17,https://www.demoblaze.com/index.html,759,0,509
+1773797896141,834,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-25,text,true,,248,298,18,18,https://api.demoblaze.com/login,834,0,442
+1773797899358,544,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-25,text,true,,2153,265,20,20,https://api.demoblaze.com/bycat,544,0,0
+1773797902052,438,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-25,text,true,,20715,240,18,18,https://www.demoblaze.com/prod.html?idp_=7,384,0,0
+1773797903111,417,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-25,text,true,,264,308,19,19,https://api.demoblaze.com/addtocart,417,0,0
+1773797904235,299,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-25,text,true,,23221,233,18,18,https://www.demoblaze.com/cart.html,249,0,0
+1773797908757,391,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-25,text,true,,206,278,20,20,https://api.demoblaze.com/deletecart,391,0,0
+1773797894645,4055,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-29,,true,,51782,1856,20,20,null,0,11131,1156
+1773797897202,961,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-29,text,true,,4975,234,18,18,https://www.demoblaze.com/index.html,946,0,682
+1773797899377,870,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-29,text,true,,248,298,20,20,https://api.demoblaze.com/login,870,0,474
+1773797900481,418,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-29,text,true,,2153,265,20,20,https://api.demoblaze.com/bycat,418,0,0
+1773797901476,552,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-29,text,true,,20715,240,18,18,https://www.demoblaze.com/prod.html?idp_=3,398,0,0
+1773797903866,423,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-29,text,true,,264,308,18,18,https://api.demoblaze.com/addtocart,423,0,0
+1773797907338,401,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-29,text,true,,23221,233,19,19,https://www.demoblaze.com/cart.html,290,0,0
+1773797909402,430,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-29,text,true,,206,278,20,20,https://api.demoblaze.com/deletecart,430,0,0
+1773797888658,3817,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-23,,true,,47012,1856,19,19,null,0,17360,862
+1773797892692,863,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-23,text,true,,17517,234,16,16,https://www.demoblaze.com/index.html,671,0,420
+1773797896787,848,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-23,text,true,,248,298,17,17,https://api.demoblaze.com/login,848,0,442
+1773797897732,439,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-23,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,432,0,0
+1773797898995,580,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-23,text,true,,20674,240,19,19,https://www.demoblaze.com/prod.html?idp_=2,366,0,0
+1773797902107,387,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-23,text,true,,264,308,18,18,https://api.demoblaze.com/addtocart,387,0,0
+1773797905370,292,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-23,text,true,,5950,233,18,18,https://www.demoblaze.com/cart.html,282,0,0
+1773797909428,408,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-23,text,true,,206,278,19,19,https://api.demoblaze.com/deletecart,408,0,0
+1773797889657,3591,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-24,,true,,19115,1856,18,18,null,0,16866,894
+1773797892286,853,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-24,text,true,,4917,234,16,16,https://www.demoblaze.com/index.html,839,0,464
+1773797897450,846,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-24,text,true,,248,298,18,18,https://api.demoblaze.com/login,846,0,430
+1773797900268,388,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-24,text,true,,2153,265,21,21,https://api.demoblaze.com/bycat,384,0,0
+1773797901411,398,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-24,text,true,,5556,240,20,20,https://www.demoblaze.com/prod.html?idp_=1,372,0,0
+1773797904361,386,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-24,text,true,,264,308,19,19,https://api.demoblaze.com/addtocart,386,0,0
+1773797907163,297,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-24,text,true,,5771,233,18,18,https://www.demoblaze.com/cart.html,265,0,0
+1773797909692,423,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-24,text,true,,206,278,18,18,https://api.demoblaze.com/deletecart,423,0,0
+1773797886666,3751,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-21,,true,,46842,1856,17,17,null,0,20186,842
+1773797890776,831,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-21,text,true,,17517,234,15,15,https://www.demoblaze.com/index.html,665,0,401
+1773797894016,825,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-21,text,true,,248,298,17,17,https://api.demoblaze.com/login,825,0,441
+1773797895671,402,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-21,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,401,0,0
+1773797900994,493,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-21,text,true,,20715,240,19,19,https://www.demoblaze.com/prod.html?idp_=4,430,0,0
+1773797902775,421,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-21,text,true,,264,308,19,19,https://api.demoblaze.com/addtocart,421,0,0
+1773797905599,265,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-21,text,true,,5739,233,18,18,https://www.demoblaze.com/cart.html,253,0,0
+1773797910091,514,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-21,text,true,,206,278,17,17,https://api.demoblaze.com/deletecart,514,0,0
+1773797893650,4181,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-28,,true,,34073,1856,18,18,null,0,14204,1231
+1773797894818,1055,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-28,text,true,,4927,234,18,18,https://www.demoblaze.com/index.html,1046,0,782
+1773797897712,857,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-28,text,true,,253,298,18,18,https://api.demoblaze.com/login,857,0,449
+1773797902058,396,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-28,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,392,0,0
+1773797906113,701,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-28,text,true,,20674,240,18,18,https://www.demoblaze.com/prod.html?idp_=2,393,0,0
+1773797907439,382,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-28,text,true,,264,308,19,19,https://api.demoblaze.com/addtocart,382,0,0
+1773797910704,402,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-28,text,true,,5596,233,17,17,https://www.demoblaze.com/cart.html,392,0,0
+1773797911648,388,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-28,text,true,,206,278,18,18,https://api.demoblaze.com/deletecart,388,0,0
+1773797898643,3855,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-33,,true,,46838,1856,19,19,null,0,11756,829
+1773797900504,865,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-33,text,true,,17517,234,19,19,https://www.demoblaze.com/index.html,688,0,406
+1773797902252,815,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-33,text,true,,248,298,19,19,https://api.demoblaze.com/login,815,0,423
+1773797903913,399,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-33,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,389,0,0
+1773797907137,465,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-33,text,true,,20674,240,18,18,https://www.demoblaze.com/prod.html?idp_=3,382,0,0
+1773797909853,405,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-33,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,405,0,0
+1773797912898,386,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-33,text,true,,5776,233,18,18,https://www.demoblaze.com/cart.html,371,0,0
+1773797913736,520,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-33,text,true,,206,278,19,19,https://api.demoblaze.com/deletecart,520,0,0
+1773797897641,4108,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-32,,true,,51716,1856,18,18,null,0,12527,979
+1773797899893,740,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-32,text,true,,4909,234,20,20,https://www.demoblaze.com/index.html,740,0,464
+1773797900682,1004,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-32,text,true,,248,298,20,20,https://api.demoblaze.com/login,1004,0,515
+1773797906646,418,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-32,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,415,0,0
+1773797908362,582,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-32,text,true,,20715,240,20,20,https://www.demoblaze.com/prod.html?idp_=3,394,0,0
+1773797910800,430,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-32,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,430,0,0
+1773797912991,454,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-32,text,true,,23221,233,18,18,https://www.demoblaze.com/cart.html,368,0,0
+1773797913798,480,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-32,text,true,,206,278,18,18,https://api.demoblaze.com/deletecart,479,0,0
+1773797899640,3790,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-34,,true,,34293,1856,17,17,null,0,11183,839
+1773797902497,805,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-34,text,true,,5022,234,19,19,https://www.demoblaze.com/index.html,792,0,413
+1773797903592,809,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-34,text,true,,248,298,18,18,https://api.demoblaze.com/login,809,0,426
+1773797905612,414,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-34,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,411,0,0
+1773797907669,557,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-34,text,true,,20715,240,19,19,https://www.demoblaze.com/prod.html?idp_=5,379,0,0
+1773797909867,411,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-34,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,411,0,0
+1773797912599,375,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-34,text,true,,5685,233,18,18,https://www.demoblaze.com/cart.html,370,0,0
+1773797914196,419,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-34,text,true,,206,278,17,17,https://api.demoblaze.com/deletecart,419,0,0
+1773797895645,3995,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-30,,true,,64324,1856,17,17,null,0,15121,834
+1773797898151,979,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-30,text,true,,17517,234,19,19,https://www.demoblaze.com/index.html,804,0,415
+1773797900606,850,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-30,text,true,,248,298,19,19,https://api.demoblaze.com/login,850,0,419
+1773797906344,490,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-30,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,486,0,0
+1773797908435,487,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-30,text,true,,20715,240,20,20,https://www.demoblaze.com/prod.html?idp_=4,424,0,0
+1773797910673,381,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-30,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,381,0,0
+1773797913097,409,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-30,text,true,,23221,233,18,18,https://www.demoblaze.com/cart.html,358,0,0
+1773797914364,399,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-30,text,true,,206,278,17,17,https://api.demoblaze.com/deletecart,399,0,0
+1773797896645,3879,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-31,,true,,34529,1856,16,16,null,0,14825,873
+1773797897073,814,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-31,text,true,,5103,234,18,18,https://www.demoblaze.com/index.html,808,0,421
+1773797900170,862,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-31,text,true,,248,298,19,19,https://api.demoblaze.com/login,862,0,452
+1773797902581,391,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-31,text,true,,2157,265,19,19,https://api.demoblaze.com/bycat,388,0,0
+1773797905055,567,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-31,text,true,,20715,240,17,17,https://www.demoblaze.com/prod.html?idp_=6,385,0,0
+1773797906032,404,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-31,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,404,0,0
+1773797912179,442,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-31,text,true,,5836,233,17,17,https://www.demoblaze.com/cart.html,435,0,0
+1773797914952,399,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-31,text,true,,206,278,16,16,https://api.demoblaze.com/deletecart,399,0,0
+1773797901640,3746,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-36,,true,,51680,1856,15,15,null,0,10109,815
+1773797902608,792,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-36,text,true,,4914,234,19,19,https://www.demoblaze.com/index.html,777,0,411
+1773797904475,791,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-36,text,true,,248,298,17,17,https://api.demoblaze.com/login,791,0,404
+1773797905659,427,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-36,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,427,0,0
+1773797909156,530,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-36,text,true,,20674,240,20,20,https://www.demoblaze.com/prod.html?idp_=4,378,0,0
+1773797910698,408,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-36,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,408,0,0
+1773797914335,417,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-36,text,true,,23221,233,17,17,https://www.demoblaze.com/cart.html,372,0,0
+1773797915116,381,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-36,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,381,0,0
+1773797900641,3972,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-35,,true,,46812,1856,15,15,null,0,12478,820
+1773797900897,941,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-35,text,true,,17517,234,20,20,https://www.demoblaze.com/index.html,789,0,410
+1773797903666,851,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-35,text,true,,248,298,18,18,https://api.demoblaze.com/login,851,0,410
+1773797906970,386,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-35,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,382,0,0
+1773797908637,489,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-35,text,true,,20715,240,20,20,https://www.demoblaze.com/prod.html?idp_=5,417,0,0
+1773797910048,434,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-35,text,true,,264,308,17,17,https://api.demoblaze.com/addtocart,434,0,0
+1773797913472,373,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-35,text,true,,5709,233,19,19,https://www.demoblaze.com/cart.html,361,0,0
+1773797916595,498,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-35,text,true,,206,278,15,15,https://api.demoblaze.com/deletecart,498,0,0
+1773797908636,3882,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-43,,true,,46844,1856,14,14,null,0,6250,1044
+1773797909653,1027,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-43,text,true,,17517,234,17,17,https://www.demoblaze.com/index.html,857,0,462
+1773797912030,971,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-43,text,true,,252,298,18,18,https://api.demoblaze.com/login,971,0,582
+1773797914314,417,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-43,text,true,,2153,265,17,17,https://api.demoblaze.com/bycat,411,0,0
+1773797914887,425,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-43,text,true,,20674,240,16,16,https://www.demoblaze.com/prod.html?idp_=2,372,0,0
+1773797917212,391,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-43,text,true,,264,308,14,14,https://api.demoblaze.com/addtocart,391,0,0
+1773797917644,269,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-43,text,true,,5778,233,14,14,https://www.demoblaze.com/cart.html,249,0,0
+1773797918387,382,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-43,text,true,,206,278,14,14,https://api.demoblaze.com/deletecart,382,0,0
+1773797906639,3783,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-41,,true,,34222,1856,13,13,null,0,8954,873
+1773797908220,791,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-41,text,true,,5042,234,20,20,https://www.demoblaze.com/index.html,773,0,440
+1773797911138,830,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-41,text,true,,248,298,18,18,https://api.demoblaze.com/login,830,0,433
+1773797912729,430,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-41,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,415,0,0
+1773797914724,561,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-41,text,true,,20715,240,16,16,https://www.demoblaze.com/prod.html?idp_=6,408,0,0
+1773797916092,407,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-41,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,407,0,0
+1773797917621,378,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-41,text,true,,5594,233,14,14,https://www.demoblaze.com/cart.html,366,0,0
+1773797918991,386,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-41,text,true,,206,278,13,13,https://api.demoblaze.com/deletecart,386,0,0
+1773797902641,4034,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-37,,true,,51843,1856,12,12,null,0,14463,1141
+1773797904959,816,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-37,text,true,,5036,234,18,18,https://www.demoblaze.com/index.html,805,0,418
+1773797907296,1145,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-37,text,true,,248,298,19,19,https://api.demoblaze.com/login,1145,0,723
+1773797909012,408,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-37,text,true,,2153,265,19,19,https://api.demoblaze.com/bycat,407,0,0
+1773797912687,574,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-37,text,true,,20715,240,18,18,https://www.demoblaze.com/prod.html?idp_=2,417,0,0
+1773797915470,389,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-37,text,true,,264,308,15,15,https://api.demoblaze.com/addtocart,389,0,0
+1773797919440,314,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-37,text,true,,23221,233,12,12,https://www.demoblaze.com/cart.html,261,0,0
+1773797920751,388,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-37,text,true,,206,278,12,12,https://api.demoblaze.com/deletecart,388,0,0
+1773797903636,3847,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-38,,true,,36883,1856,11,11,null,0,14804,848
+1773797906773,829,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-38,text,true,,5174,234,18,18,https://www.demoblaze.com/index.html,805,0,413
+1773797907887,833,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-38,text,true,,248,298,20,20,https://api.demoblaze.com/login,833,0,435
+1773797909788,448,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-38,text,true,,2153,265,17,17,https://api.demoblaze.com/bycat,448,0,0
+1773797914420,385,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-38,text,true,,5617,240,16,16,https://www.demoblaze.com/prod.html?idp_=1,371,0,0
+1773797917600,392,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-38,text,true,,264,308,14,14,https://api.demoblaze.com/addtocart,392,0,0
+1773797919646,535,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-38,text,true,,23221,233,12,12,https://www.demoblaze.com/cart.html,367,0,0
+1773797921862,425,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-38,text,true,,206,278,11,11,https://api.demoblaze.com/deletecart,425,0,0
+1773797905638,3839,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-40,,true,,51857,1856,10,10,null,0,13224,876
+1773797906864,884,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-40,text,true,,5050,234,19,19,https://www.demoblaze.com/index.html,875,0,431
+1773797907845,860,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-40,text,true,,248,298,20,20,https://api.demoblaze.com/login,860,0,445
+1773797909600,438,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-40,text,true,,2153,265,18,18,https://api.demoblaze.com/bycat,438,0,0
+1773797913420,547,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-40,text,true,,20715,240,19,19,https://www.demoblaze.com/prod.html?idp_=3,385,0,0
+1773797917361,405,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-40,text,true,,264,308,14,14,https://api.demoblaze.com/addtocart,405,0,0
+1773797921284,307,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-40,text,true,,23221,233,11,11,https://www.demoblaze.com/cart.html,255,0,0
+1773797922304,398,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-40,text,true,,206,278,10,10,https://api.demoblaze.com/deletecart,398,0,0
+1773797910631,3697,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-45,,true,,34014,1856,9,9,null,0,9851,823
+1773797914863,794,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-45,text,true,,4778,234,15,15,https://www.demoblaze.com/index.html,782,0,420
+1773797917299,808,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-45,text,true,,248,298,14,14,https://api.demoblaze.com/login,808,0,403
+1773797918235,404,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-45,text,true,,2153,265,14,14,https://api.demoblaze.com/bycat,404,0,0
+1773797919127,525,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-45,text,true,,20674,240,12,12,https://www.demoblaze.com/prod.html?idp_=7,378,0,0
+1773797919989,394,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-45,text,true,,264,308,12,12,https://api.demoblaze.com/addtocart,394,0,0
+1773797922419,386,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-45,text,true,,5691,233,9,9,https://www.demoblaze.com/cart.html,374,0,0
+1773797923794,386,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-45,text,true,,206,278,9,9,https://api.demoblaze.com/deletecart,386,0,0
+1773797907634,3575,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-42,,true,,19052,1856,8,8,null,0,14743,932
+1773797910079,753,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-42,text,true,,4970,234,17,17,https://www.demoblaze.com/index.html,719,0,440
+1773797911005,916,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-42,text,true,,248,298,18,18,https://api.demoblaze.com/login,916,0,492
+1773797914243,446,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-42,text,true,,2153,265,17,17,https://api.demoblaze.com/bycat,446,0,0
+1773797917325,385,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-42,text,true,,5340,240,14,14,https://www.demoblaze.com/prod.html?idp_=3,365,0,0
+1773797918681,404,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-42,text,true,,264,308,13,13,https://api.demoblaze.com/addtocart,404,0,0
+1773797920607,282,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-42,text,true,,5871,233,12,12,https://www.demoblaze.com/cart.html,261,0,0
+1773797925564,389,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-42,text,true,,206,278,8,8,https://api.demoblaze.com/deletecart,389,0,0
+1773797911628,3631,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-46,,true,,51988,1856,7,7,null,0,10889,855
+1773797912598,710,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-46,text,true,,5172,234,18,18,https://www.demoblaze.com/index.html,695,0,443
+1773797913462,839,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-46,text,true,,253,298,17,17,https://api.demoblaze.com/login,839,0,412
+1773797916143,387,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-46,text,true,,2153,265,15,15,https://api.demoblaze.com/bycat,382,0,0
+1773797919656,530,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-46,text,true,,20715,240,12,12,https://www.demoblaze.com/prod.html?idp_=6,382,0,0
+1773797922847,395,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-46,text,true,,268,308,9,9,https://api.demoblaze.com/addtocart,395,0,0
+1773797923286,349,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-46,text,true,,23221,233,9,9,https://www.demoblaze.com/cart.html,269,0,0
+1773797925728,421,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-46,text,true,,206,278,7,7,https://api.demoblaze.com/deletecart,421,0,0
+1773797909635,3968,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-44,,true,,51988,1856,6,6,null,0,13759,959
+1773797911010,911,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-44,text,true,,5181,234,18,18,https://www.demoblaze.com/index.html,906,0,525
+1773797913844,845,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-44,text,true,,248,298,17,17,https://api.demoblaze.com/login,845,0,434
+1773797917277,383,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-44,text,true,,2153,265,14,14,https://api.demoblaze.com/bycat,381,0,0
+1773797918407,533,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-44,text,true,,20715,240,13,13,https://www.demoblaze.com/prod.html?idp_=7,392,0,0
+1773797920614,401,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-44,text,true,,264,308,12,12,https://api.demoblaze.com/addtocart,401,0,0
+1773797923843,488,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-44,text,true,,23221,233,8,8,https://www.demoblaze.com/cart.html,376,0,0
+1773797926956,407,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-44,text,true,,206,278,6,6,https://api.demoblaze.com/deletecart,407,0,0
+1773797904639,3714,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-39,,true,,51763,1856,5,5,null,0,19479,895
+1773797911217,751,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-39,text,true,,4997,234,18,18,https://www.demoblaze.com/index.html,735,0,454
+1773797912192,851,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-39,text,true,,248,298,18,18,https://api.demoblaze.com/login,851,0,441
+1773797915706,417,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-39,text,true,,2153,265,15,15,https://api.demoblaze.com/bycat,417,0,0
+1773797916905,392,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-39,text,true,,20674,240,14,14,https://www.demoblaze.com/prod.html?idp_=4,248,0,0
+1773797918380,453,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-39,text,true,,264,308,13,13,https://api.demoblaze.com/addtocart,453,0,0
+1773797923963,383,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-39,text,true,,23221,233,8,8,https://www.demoblaze.com/cart.html,264,0,0
+1773797927367,467,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-39,text,true,,206,278,5,5,https://api.demoblaze.com/deletecart,467,0,0
+1773797915623,3696,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-50,,true,,64324,1856,4,4,null,0,9761,827
+1773797918041,837,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-50,text,true,,17517,234,13,13,https://www.demoblaze.com/index.html,669,0,414
+1773797920515,816,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-50,text,true,,248,298,11,11,https://api.demoblaze.com/login,816,0,413
+1773797923290,429,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-50,text,true,,2153,265,9,9,https://api.demoblaze.com/bycat,428,0,0
+1773797925761,472,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-50,text,true,,20715,240,6,6,https://www.demoblaze.com/prod.html?idp_=3,395,0,0
+1773797926601,396,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-50,text,true,,264,308,6,6,https://api.demoblaze.com/addtocart,396,0,0
+1773797927341,324,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-50,text,true,,23221,233,5,5,https://www.demoblaze.com/cart.html,260,0,0
+1773797928659,422,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-50,text,true,,206,278,4,4,https://api.demoblaze.com/deletecart,422,0,0
+1773797913626,3777,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-48,,true,,34397,1856,3,3,null,0,12920,824
+1773797916476,803,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-48,text,true,,5095,234,14,14,https://www.demoblaze.com/index.html,792,0,419
+1773797919756,816,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-48,text,true,,253,298,12,12,https://api.demoblaze.com/login,816,0,405
+1773797922605,410,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-48,text,true,,2153,265,9,9,https://api.demoblaze.com/bycat,410,0,0
+1773797924138,562,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-48,text,true,,20674,240,8,8,https://www.demoblaze.com/prod.html?idp_=7,369,0,0
+1773797926777,404,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-48,text,true,,264,308,6,6,https://api.demoblaze.com/addtocart,404,0,0
+1773797929026,385,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-48,text,true,,5752,233,3,3,https://www.demoblaze.com/cart.html,371,0,0
+1773797929927,397,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-48,text,true,,206,278,3,3,https://api.demoblaze.com/deletecart,397,0,0
+1773797914626,3962,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-49,,true,,64283,1856,2,2,null,0,12428,852
+1773797919330,942,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-49,text,true,,17517,234,12,12,https://www.demoblaze.com/index.html,780,0,415
+1773797920923,825,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-49,text,true,,248,298,11,11,https://api.demoblaze.com/login,825,0,437
+1773797921976,411,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-49,text,true,,2153,265,10,10,https://api.demoblaze.com/bycat,411,0,0
+1773797925781,452,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-49,text,true,,20674,240,6,6,https://www.demoblaze.com/prod.html?idp_=4,374,0,0
+1773797926430,377,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-49,text,true,,264,308,6,6,https://api.demoblaze.com/addtocart,377,0,0
+1773797928708,545,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-49,text,true,,23221,233,3,3,https://www.demoblaze.com/cart.html,456,0,0
+1773797930607,410,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-49,text,true,,206,278,2,2,https://api.demoblaze.com/deletecart,410,0,0
+1773797912629,3769,TX - Full Purchase Flow,200,"Number of samples in transaction : 7, number of failing samples : 0",TG1 - Baseline Test (50 Users) 1-47,,true,,34044,1856,1,1,null,0,22247,810
+1773797916480,789,GET - Home Page,200,OK,TG1 - Baseline Test (50 Users) 1-47,text,true,,4819,234,14,14,https://www.demoblaze.com/index.html,779,0,413
+1773797917916,791,POST - User Login,200,OK,TG1 - Baseline Test (50 Users) 1-47,text,true,,253,298,14,14,https://api.demoblaze.com/login,791,0,397
+1773797920964,399,POST - Browse Category (Phones),200,OK,TG1 - Baseline Test (50 Users) 1-47,text,true,,2153,265,11,11,https://api.demoblaze.com/bycat,399,0,0
+1773797925209,642,GET - Product Details Page,200,OK,TG1 - Baseline Test (50 Users) 1-47,text,true,,20715,240,8,8,https://www.demoblaze.com/prod.html?idp_=2,425,0,0
+1773797930913,381,POST - Add to Cart,200,OK,TG1 - Baseline Test (50 Users) 1-47,text,true,,264,308,1,1,https://api.demoblaze.com/addtocart,381,0,0
+1773797932825,387,GET - View Cart Page,200,OK,TG1 - Baseline Test (50 Users) 1-47,text,true,,5634,233,1,1,https://www.demoblaze.com/cart.html,371,0,0
+1773797938266,380,POST - Checkout (Delete Cart),200,OK,TG1 - Baseline Test (50 Users) 1-47,text,true,,206,278,1,1,https://api.demoblaze.com/deletecart,380,0,0
