@@ -183,6 +183,8 @@ jobs:
     steps:
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Download all dashboard artifacts
         uses: actions/download-artifact@v4
