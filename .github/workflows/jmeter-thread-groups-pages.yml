@@ -282,11 +282,11 @@ jobs:
           # Download metrics artifacts from the same workflow run.
           # gh is preinstalled on GitHub-hosted runners.
           echo "Downloading metrics artifacts..."
-          gh run download "${{ github.run_id }}" --name metrics-baseline --dir _metrics/metrics-baseline || true
-          gh run download "${{ github.run_id }}" --name metrics-load --dir _metrics/metrics-load || true
-          gh run download "${{ github.run_id }}" --name metrics-peak-load --dir _metrics/metrics-peak-load || true
-          gh run download "${{ github.run_id }}" --name metrics-stress --dir _metrics/metrics-stress || true
-          gh run download "${{ github.run_id }}" --name metrics-endurance --dir _metrics/metrics-endurance || true
+          gh run download "${{ github.run_id }}" -R "${{ github.repository }}" --name metrics-baseline --dir _metrics/metrics-baseline || true
+          gh run download "${{ github.run_id }}" -R "${{ github.repository }}" --name metrics-load --dir _metrics/metrics-load || true
+          gh run download "${{ github.run_id }}" -R "${{ github.repository }}" --name metrics-peak-load --dir _metrics/metrics-peak-load || true
+          gh run download "${{ github.run_id }}" -R "${{ github.repository }}" --name metrics-stress --dir _metrics/metrics-stress || true
+          gh run download "${{ github.run_id }}" -R "${{ github.repository }}" --name metrics-endurance --dir _metrics/metrics-endurance || true
 
           python3 - <<'PY' > payload.json
           import json
@@ -307,24 +307,24 @@ jobs:
               text = "JMeter workflow failed. Check the GitHub Actions run for details."
               status_emoji = ":x:"
 
-            groups = [
+          groups = [
               ("baseline", "Baseline"),
               ("load", "Load"),
               ("peak-load", "Peak Load"),
               ("stress", "Stress"),
               ("endurance", "Endurance"),
-            ]
+          ]
 
-            metrics_rows = []
-            # Monospace rows to mimic a compact table in Slack markdown.
-            metrics_rows.append("Thread Group | Status | Error % | Avg ms | Samples | Failed")
-            metrics_rows.append("------------|--------|---------|--------|---------|-------")
+          metrics_rows = []
+          # Monospace rows to mimic a compact table in Slack markdown.
+          metrics_rows.append("Thread Group | Status | Error % | Avg ms | Samples | Failed")
+          metrics_rows.append("------------|--------|---------|--------|---------|-------")
 
-            for slug, label in groups:
+          for slug, label in groups:
               metrics_path = Path(f"_metrics/metrics-{slug}/{slug}.json")
               if not metrics_path.exists():
-                metrics_rows.append(f"{label:<11} | FAIL   | n/a     | n/a    | n/a     | n/a")
-                continue
+                  metrics_rows.append(f"{label:<11} | FAIL   | n/a     | n/a    | n/a     | n/a")
+                  continue
 
               data = json.loads(metrics_path.read_text(encoding="utf-8"))
               status = data.get("status", "FAIL")
@@ -334,63 +334,63 @@ jobs:
               failed = data.get("failed_samples", 0)
 
               metrics_rows.append(
-                f"{label:<11} | {status:<6} | {error_rate:>6.2f}% | {avg_ms:>6.2f} | {total:>7} | {failed:>6}"
+                  f"{label:<11} | {status:<6} | {error_rate:>6.2f}% | {avg_ms:>6.2f} | {total:>7} | {failed:>6}"
               )
 
-            context_parts = []
-            if pages_url:
-              context_parts.append(f"<${pages_url}|GitHub Pages>")
-            if run_url:
-              context_parts.append(f"<${run_url}|Workflow Run>")
+          context_parts = []
+          if pages_url:
+              context_parts.append(f"<{pages_url}|GitHub Pages>")
+          if run_url:
+              context_parts.append(f"<{run_url}|Workflow Run>")
 
-            blocks = [
+          blocks = [
               {
-                "type": "header",
-                "text": {
-                  "type": "plain_text",
-                  "text": "JMeter Thread Group Report",
-                  "emoji": True,
-                },
+                  "type": "header",
+                  "text": {
+                      "type": "plain_text",
+                      "text": "JMeter Thread Group Report",
+                      "emoji": True,
+                  },
               },
               {
-                "type": "section",
-                "text": {
-                  "type": "mrkdwn",
-                  "text": f"{status_emoji} *{text}*",
-                },
-              },
-            ]
-
-            if context_parts:
-              blocks.append(
-                {
-                  "type": "context",
-                  "elements": [
-                    {
-                      "type": "mrkdwn",
-                      "text": " | ".join(context_parts),
-                    }
-                  ],
-                }
-              )
-
-            blocks.extend(
-              [
-                {"type": "divider"},
-                {
                   "type": "section",
                   "text": {
-                    "type": "mrkdwn",
-                    "text": "*Per-thread-group metrics*\n```" + "\n".join(metrics_rows) + "```",
+                      "type": "mrkdwn",
+                      "text": f"{status_emoji} *{text}*",
                   },
-                },
-              ]
-            )
+              },
+          ]
 
-            payload = {
+          if context_parts:
+              blocks.append(
+                  {
+                      "type": "context",
+                      "elements": [
+                          {
+                              "type": "mrkdwn",
+                              "text": " | ".join(context_parts),
+                          }
+                      ],
+                  }
+              )
+
+          blocks.extend(
+              [
+                  {"type": "divider"},
+                  {
+                      "type": "section",
+                      "text": {
+                          "type": "mrkdwn",
+                          "text": "*Per-thread-group metrics*\n```" + "\n".join(metrics_rows) + "```",
+                      },
+                  },
+              ]
+          )
+
+          payload = {
               "text": text,
               "blocks": blocks,
-            }
+          }
 
           print(json.dumps(payload))
           PY
